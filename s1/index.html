@@ -1,13 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>淘宝网 - 淘！我喜欢</title>
-  <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>淘宝网 - 淘！我喜欢</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <img class="tb-logo" src="assets/tb_logo.png" alt="tb_logo" />
+      <div class="advice">
+        <a class="first-advice" href="index.html">网站无障碍</a>
+        <a class="second-advice" href="index.html">
+          <img
+            class="icon_dialog"
+            src="assets/icon_dialog.png"
+            alt="icon_dialog"
+          />
+          <span>"登录页面"改进建议</span>
+        </a>
+      </div>
+    </header>
+    <section class="main">
+      <div class="login">
+        <form action="">
+          <p class="denglufangshi">
+            <a class="mima" href="index.html">密码登录</a>
+            <a href="index.html" class="duanxin">短信登录</a>
+          </p>
+          <div class="shurukuang">
+            <input
+              type="text"
+              class="zhanghao"
+              name="youxiang-zhanghao-tel"
+              placeholder="账号名/邮箱/手机号"
+            />
+
+            <input
+              class="mimakuang"
+              type="password"
+              name="mima"
+              placeholder="请输入密码"
+            />
+            <img
+              class="icon_eye_close"
+              src="assets/icon_eye_close.png"
+              alt="icon_eye_close"
+            />
+          </div>
+          <input type="submit" class="denglubutton" value="登录" />
+          <div class="qitafangshi">
+            <a href="index.html" class="alipay"
+              ><img
+                src="assets/icon_logo_alipay.png"
+                alt="icon_logo_alipay"
+                class="icon-alipay"
+              />支付宝登录</a
+            >
+
+            <a href="index.html" class="dingding"
+              ><img
+                src="assets/icon_logo_dingtalk.png"
+                alt="icon_logo_dingtalk"
+                class="icon-dingding"
+              />钉钉登录</a
+            >
+          </div>
+          <div class="zhuce-forget">
+            <a href="index.html" class="zhuce">免费注册</a>
+            <a href="index.html" class="forget-zhanghao">忘记账号名</a>
+            <a href="index.html" class="forget-mima">忘记密码</a>
+          </div>
+        </form>
+      </div>
+      <div class="erweima">
+        <p class="saoma-text">手机扫码安全登录</p>
+        <div class="container-erweima">
+          <img class="img-erweima" src="assets/qrcode.png" alt="qrcode" />
+        </div>
+        <div class="qitasaoma">
+          打开<img
+            class="icon_logo_tb"
+            src="assets/icon_logo_tb.png"
+            alt="icon_logo_tb"
+          />
+          <span class="taobao">淘宝</span>
+          <img
+            class="icon_logo_tm"
+            src="assets/icon_logo_tm.png"
+            alt="icon_logo_tm"
+          /><span class="tianma">天猫</span>APP扫码
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

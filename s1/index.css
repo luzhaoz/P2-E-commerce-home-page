@@ -1,0 +1,235 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+    background-color: #f0eff2;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.tb-logo{
+    height: 42px;
+    width: 72px;
+    margin-top: 22px;
+}
+.advice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+height: 35px;
+margin-top: 25px;
+}
+.first-advice{
+    display: block;
+    line-height: 12px;
+    height: 12px;
+    font-size: 12px;
+    color: #666;
+}
+
+.second-advice{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 9px;
+    line-height: 12px;
+    height: 14px;
+    font-size: 12px;
+    color: #666;
+
+}
+
+
+
+.advice a:hover{
+color: #f40;
+}
+.icon_dialog{
+    height: 14px;
+    width: 16px;
+    margin-right: 4px;
+    
+}
+.main{
+    width: 885px;
+    height: 514px;
+    margin: 0 auto;
+    margin-top: 111px;
+    border-radius: 18px;
+   background-color: #fff;
+    display: flex;
+
+}
+.login{
+    width: 510px;
+    height: 100%;
+}
+.denglufangshi{
+    display: flex;
+    justify-content: center;
+    padding-top: 77px;
+    padding-bottom: 47px;
+
+}
+.mima,.duanxin{
+    line-height: 22px;
+    font-size: 22px;
+        font-family: PingFang SC;
+        font-weight: 600;
+}
+.mima{
+    display: flex;
+    align-items: center;
+    color: #ff6200;
+}
+.duanxin{
+    color:#11192d;
+}
+
+.mima::after{
+    content: "|";
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0 20px;
+    color: #e9ebee;
+}
+.shurukuang{
+    position: relative;
+}
+.zhanghao,.mimakuang{
+    height: 48px;
+    width: 350px;
+    border-radius: 8px;
+    margin:0 80px 20px 80px;
+    background-color: #f4f6f8;
+    color: #11192d;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.icon_eye_close{
+    position: absolute;
+    top: 83px;
+    right: 100px;
+    height: 13px;
+    width: 18px;
+}
+.denglubutton{
+        height: 48px;
+        width: 350px;
+        margin: 30px 80px 24px 80px;
+        border-radius: 8px;
+        background-color: #ff6200;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: PingFang SC;
+        color: #fff;
+        
+}
+.denglubutton:hover{
+    background-color: #f52b00;
+}
+.qitafangshi{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.alipay,.dingding{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #50607a;
+    line-height: 14px;
+}
+
+.icon-alipay,.icon-dingding{
+
+    line-height: 14px;
+    width: 14px;
+    margin-right: 4px;
+}
+
+.alipay::after{
+    content: "|";
+        color: #e5e8ec;
+            font-size: 12px;
+            line-height: 12px;
+            padding: 0 16px 0 12px;
+}
+.zhuce-forget{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.zhuce,.forget-zhanghao,.forget-mima{
+    line-height: 14px;
+    font-size: 14px;
+    color:#50607a ;
+}
+.zhuce::after,.forget-zhanghao::after{
+    content: "|";
+    padding: 0 12px;
+    height: 12px;
+    color:#e5e8ec
+}
+.erweima{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 354px;
+    flex:1;
+    border-left: 1px solid #f2f2f2;
+    
+}
+.saoma-text{
+margin-left: 78px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+    font-family: PingFang SC;
+    color: #11192d;
+}
+.container-erweima{
+    height:216px;
+    width: 216px;
+    margin-top: 50px;
+margin-left: 60px;
+margin-right: 98px;
+padding: 18px;
+border: 2px solid #e5e8ec;
+border-radius: 8px;
+}
+.img-erweima{
+    width: 176px;
+    height: 176px;
+}
+.qitasaoma{
+    display: flex;
+    align-items: center;
+    margin-top: 53px;
+    margin-left: 60px;
+    height: 14px;
+    color: #50607a;
+    font-size: 14px;
+}
+.icon_logo_tb,.icon_logo_tm{
+height: 14px;
+width: 14px;
+margin-right: 2px;
+}
+.icon_logo_tb{
+    margin-left: 8px;
+}
+.taobao{
+    color: #ff6200;
+}
+.taobao::after{
+    content: "|";
+    padding: 0 6px;
+    height: 12px;
+    color: #e5e8ec;
+}
+.tianma{
+    color:#ff002b ;
+    margin-right: 8px;
+}
